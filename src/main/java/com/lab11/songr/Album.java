@@ -48,4 +48,8 @@ public class Album {
     public String getImageUrl() {
         return this.imageUrl;
     }
+
+    public List<Song> getSongs() {
+        return songs;
+    }
 }
